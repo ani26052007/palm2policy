@@ -7,7 +7,10 @@
 
 > I filmed my own hand with a phone, picking up a tub and putting it on a notebook. This repo turns those clips into 3D demonstrations, replays them on a Unitree G1 humanoid with Dex3 hands in MuJoCo, multiplies them with physics-checked augmentation, and trains an ACT / ACT-JEPA policy. The policy then does the task by itself on layouts it has never seen.
 
-<!-- TODO: put a phone clip next to the robot here, e.g. assets/side_by_side.gif -->
+<p align="center">
+  <img src="assets/side_by_side.gif" width="640"><br>
+  <em>Left: my demonstration, filmed on a phone. Right: the G1 replaying that same demonstration in MuJoCo after hand/tub tracking and retargeting (the carry is played 1.5× slower).</em>
+</p>
 <p align="center">
   <img src="assets/policy.gif" width="480"><br>
   <em>The trained ACT policy running closed-loop on an unseen layout. Nothing is scripted or replayed: the network picks every joint target from the current state.</em>
