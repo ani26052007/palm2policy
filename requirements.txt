@@ -1,0 +1,10 @@
+numpy
+scipy
+opencv-python
+mediapipe
+mujoco
+mink
+daqp
+torch
+imageio
+imageio-ffmpeg

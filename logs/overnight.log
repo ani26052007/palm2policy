@@ -1,0 +1,1337 @@
+data done: 1817 episodes
+ACT | 1636 train / 181 val episodes, 409044 samples, 7.4M params, device cuda
+epoch   1  train L1 0.1593  val L1 0.0925  (167s)
+epoch   2  train L1 0.1019  val L1 0.0772  (350s)
+epoch   3  train L1 0.0871  val L1 0.0683  (535s)
+epoch   4  train L1 0.0781  val L1 0.0662  (709s)
+epoch   5  train L1 0.0712  val L1 0.0581  (884s)
+epoch   6  train L1 0.0659  val L1 0.0533  (1057s)
+epoch   7  train L1 0.0614  val L1 0.0500  (1237s)
+epoch   8  train L1 0.0576  val L1 0.0484  (1428s)
+epoch   9  train L1 0.0545  val L1 0.0447  (1616s)
+epoch  10  train L1 0.0517  val L1 0.0420  (1798s)
+epoch  11  train L1 0.0494  val L1 0.0407  (1978s)
+epoch  12  train L1 0.0473  val L1 0.0401  (2149s)
+epoch  13  train L1 0.0454  val L1 0.0367  (2349s)
+epoch  14  train L1 0.0439  val L1 0.0355  (2557s)
+epoch  15  train L1 0.0424  val L1 0.0357  (2764s)
+epoch  16  train L1 0.0410  val L1 0.0320  (2971s)
+epoch  17  train L1 0.0398  val L1 0.0316  (3179s)
+epoch  18  train L1 0.0387  val L1 0.0310  (3387s)
+epoch  19  train L1 0.0377  val L1 0.0296  (3595s)
+epoch  20  train L1 0.0368  val L1 0.0289  (3804s)
+epoch  21  train L1 0.0360  val L1 0.0283  (4012s)
+epoch  22  train L1 0.0353  val L1 0.0275  (4220s)
+epoch  23  train L1 0.0347  val L1 0.0267  (4428s)
+epoch  24  train L1 0.0341  val L1 0.0267  (4637s)
+epoch  25  train L1 0.0337  val L1 0.0261  (4844s)
+epoch  26  train L1 0.0333  val L1 0.0256  (5052s)
+epoch  27  train L1 0.0331  val L1 0.0255  (5261s)
+epoch  28  train L1 0.0329  val L1 0.0251  (5470s)
+epoch  29  train L1 0.0327  val L1 0.0251  (5678s)
+epoch  30  train L1 0.0327  val L1 0.0251  (5888s)
+best val action L1 0.0251 -> runs/act_aug_x3/policy.pt
+ACT-JEPA (full targets) | 1636 train / 181 val episodes, 409044 samples, 11.7M params, device cuda
+epoch   1  train L1 0.1603  val L1 0.0992  latent L1 0.1096  (480s)
+epoch   2  train L1 0.1019  val L1 0.0794  latent L1 0.0687  (960s)
+epoch   3  train L1 0.0866  val L1 0.0734  latent L1 0.0589  (1442s)
+epoch   4  train L1 0.0775  val L1 0.0625  latent L1 0.0544  (1922s)
+epoch   5  train L1 0.0706  val L1 0.0591  latent L1 0.0515  (2404s)
+epoch   6  train L1 0.0650  val L1 0.0550  latent L1 0.0493  (2887s)
+epoch   7  train L1 0.0605  val L1 0.0486  latent L1 0.0472  (3369s)
+epoch   8  train L1 0.0566  val L1 0.0499  latent L1 0.0458  (3853s)
+epoch   9  train L1 0.0536  val L1 0.0431  latent L1 0.0441  (4335s)
+epoch  10  train L1 0.0509  val L1 0.0415  latent L1 0.0429  (4818s)
+epoch  11  train L1 0.0486  val L1 0.0389  latent L1 0.0423  (5298s)
+epoch  12  train L1 0.0465  val L1 0.0389  latent L1 0.0416  (5782s)
+epoch  13  train L1 0.0447  val L1 0.0371  latent L1 0.0408  (6269s)
+epoch  14  train L1 0.0432  val L1 0.0360  latent L1 0.0402  (6757s)
+epoch  15  train L1 0.0416  val L1 0.0343  latent L1 0.0395  (7245s)
+epoch  16  train L1 0.0403  val L1 0.0340  latent L1 0.0391  (7733s)
+epoch  17  train L1 0.0392  val L1 0.0313  latent L1 0.0386  (8220s)
+epoch  18  train L1 0.0381  val L1 0.0311  latent L1 0.0380  (8707s)
+epoch  19  train L1 0.0370  val L1 0.0296  latent L1 0.0376  (9192s)
+epoch  20  train L1 0.0362  val L1 0.0287  latent L1 0.0372  (9677s)
+epoch  21  train L1 0.0354  val L1 0.0274  latent L1 0.0369  (10164s)
+epoch  22  train L1 0.0347  val L1 0.0271  latent L1 0.0366  (10652s)
+epoch  23  train L1 0.0341  val L1 0.0261  latent L1 0.0361  (11143s)
+epoch  24  train L1 0.0336  val L1 0.0264  latent L1 0.0359  (11631s)
+epoch  25  train L1 0.0331  val L1 0.0263  latent L1 0.0356  (12117s)
+epoch  26  train L1 0.0328  val L1 0.0258  latent L1 0.0355  (12604s)
+epoch  27  train L1 0.0325  val L1 0.0254  latent L1 0.0353  (13087s)
+epoch  28  train L1 0.0323  val L1 0.0250  latent L1 0.0353  (13568s)
+epoch  29  train L1 0.0322  val L1 0.0249  latent L1 0.0353  (14054s)
+epoch  30  train L1 0.0321  val L1 0.0248  latent L1 0.0352  (14541s)
+best val action L1 0.0248 -> runs/jepa_aug_x3/policy.pt
+ACT | 252 train / 28 val episodes, 62613 samples, 7.4M params, device cuda
+epoch   1  train L1 0.2625  val L1 0.1788  (32s)
+epoch   2  train L1 0.1804  val L1 0.1387  (65s)
+epoch   3  train L1 0.1498  val L1 0.1196  (97s)
+epoch   4  train L1 0.1342  val L1 0.1118  (130s)
+epoch   5  train L1 0.1229  val L1 0.1029  (162s)
+epoch   6  train L1 0.1161  val L1 0.0995  (194s)
+epoch   7  train L1 0.1107  val L1 0.1027  (227s)
+epoch   8  train L1 0.1056  val L1 0.0967  (259s)
+epoch   9  train L1 0.1008  val L1 0.0937  (291s)
+epoch  10  train L1 0.0979  val L1 0.0866  (324s)
+epoch  11  train L1 0.0944  val L1 0.0824  (356s)
+epoch  12  train L1 0.0915  val L1 0.0846  (389s)
+epoch  13  train L1 0.0898  val L1 0.0847  (421s)
+epoch  14  train L1 0.0875  val L1 0.0840  (454s)
+epoch  15  train L1 0.0855  val L1 0.0803  (486s)
+epoch  16  train L1 0.0836  val L1 0.0753  (519s)
+epoch  17  train L1 0.0819  val L1 0.0781  (551s)
+epoch  18  train L1 0.0807  val L1 0.0749  (583s)
+epoch  19  train L1 0.0792  val L1 0.0733  (616s)
+epoch  20  train L1 0.0782  val L1 0.0741  (648s)
+epoch  21  train L1 0.0772  val L1 0.0721  (680s)
+epoch  22  train L1 0.0765  val L1 0.0727  (712s)
+epoch  23  train L1 0.0758  val L1 0.0721  (745s)
+epoch  24  train L1 0.0752  val L1 0.0715  (777s)
+epoch  25  train L1 0.0745  val L1 0.0718  (809s)
+epoch  26  train L1 0.0742  val L1 0.0710  (841s)
+epoch  27  train L1 0.0740  val L1 0.0707  (873s)
+epoch  28  train L1 0.0738  val L1 0.0706  (905s)
+epoch  29  train L1 0.0736  val L1 0.0703  (937s)
+epoch  30  train L1 0.0736  val L1 0.0703  (970s)
+best val action L1 0.0703 -> runs/act_aug_half/policy.pt
+ACT-JEPA (full targets) | 252 train / 28 val episodes, 62613 samples, 11.7M params, device cuda
+epoch   1  train L1 0.2645  val L1 0.1801  latent L1 0.2082  (74s)
+epoch   2  train L1 0.1814  val L1 0.1356  latent L1 0.1111  (148s)
+epoch   3  train L1 0.1510  val L1 0.1201  latent L1 0.0971  (223s)
+epoch   4  train L1 0.1357  val L1 0.1120  latent L1 0.0896  (297s)
+epoch   5  train L1 0.1248  val L1 0.1048  latent L1 0.0841  (371s)
+epoch   6  train L1 0.1164  val L1 0.0963  latent L1 0.0795  (445s)
+epoch   7  train L1 0.1108  val L1 0.0946  latent L1 0.0761  (519s)
+epoch   8  train L1 0.1056  val L1 0.0910  latent L1 0.0733  (593s)
+epoch   9  train L1 0.1016  val L1 0.0903  latent L1 0.0708  (667s)
+epoch  10  train L1 0.0980  val L1 0.0896  latent L1 0.0685  (741s)
+epoch  11  train L1 0.0949  val L1 0.0855  latent L1 0.0666  (816s)
+epoch  12  train L1 0.0922  val L1 0.0834  latent L1 0.0650  (890s)
+epoch  13  train L1 0.0896  val L1 0.0833  latent L1 0.0635  (964s)
+epoch  14  train L1 0.0875  val L1 0.0789  latent L1 0.0622  (1039s)
+epoch  15  train L1 0.0857  val L1 0.0784  latent L1 0.0610  (1113s)
+epoch  16  train L1 0.0841  val L1 0.0762  latent L1 0.0600  (1187s)
+epoch  17  train L1 0.0823  val L1 0.0770  latent L1 0.0590  (1262s)
+epoch  18  train L1 0.0809  val L1 0.0747  latent L1 0.0583  (1336s)
+epoch  19  train L1 0.0796  val L1 0.0748  latent L1 0.0576  (1410s)
+epoch  20  train L1 0.0785  val L1 0.0741  latent L1 0.0569  (1484s)
+epoch  21  train L1 0.0774  val L1 0.0729  latent L1 0.0563  (1558s)
+epoch  22  train L1 0.0766  val L1 0.0736  latent L1 0.0558  (1631s)
+epoch  23  train L1 0.0761  val L1 0.0721  latent L1 0.0555  (1705s)
+epoch  24  train L1 0.0755  val L1 0.0728  latent L1 0.0552  (1778s)
+epoch  25  train L1 0.0750  val L1 0.0713  latent L1 0.0549  (1851s)
+epoch  26  train L1 0.0746  val L1 0.0713  latent L1 0.0547  (1925s)
+epoch  27  train L1 0.0742  val L1 0.0708  latent L1 0.0546  (1999s)
+epoch  28  train L1 0.0741  val L1 0.0708  latent L1 0.0545  (2073s)
+epoch  29  train L1 0.0741  val L1 0.0707  latent L1 0.0544  (2146s)
+epoch  30  train L1 0.0736  val L1 0.0707  latent L1 0.0544  (2220s)
+best val action L1 0.0707 -> runs/jepa_aug_half/policy.pt
+episode   1: SUCCESS 
+episode   2: SUCCESS 
+episode   3: SUCCESS 
+episode   4: SUCCESS 
+episode   5: SUCCESS 
+episode   6: SUCCESS 
+episode   7: SUCCESS 
+episode   8: SUCCESS 
+episode   9: FAIL    not on notebook
+episode  10: SUCCESS 
+episode  11: FAIL    not on notebook
+episode  12: SUCCESS 
+episode  13: SUCCESS 
+episode  14: SUCCESS 
+episode  15: SUCCESS 
+episode  16: SUCCESS 
+episode  17: SUCCESS 
+episode  18: SUCCESS 
+episode  19: SUCCESS 
+episode  20: SUCCESS 
+episode  21: SUCCESS 
+episode  22: SUCCESS 
+episode  23: SUCCESS 
+episode  24: SUCCESS 
+episode  25: SUCCESS 
+episode  26: SUCCESS 
+episode  27: FAIL    not on notebook
+episode  28: SUCCESS 
+episode  29: SUCCESS 
+episode  30: SUCCESS 
+episode  31: SUCCESS 
+episode  32: FAIL    not on notebook
+episode  33: SUCCESS 
+episode  34: SUCCESS 
+episode  35: FAIL    not on notebook
+episode  36: SUCCESS 
+episode  37: SUCCESS 
+episode  38: SUCCESS 
+episode  39: SUCCESS 
+episode  40: SUCCESS 
+episode  41: SUCCESS 
+episode  42: SUCCESS 
+episode  43: SUCCESS 
+episode  44: FAIL    not on notebook
+episode  45: SUCCESS 
+episode  46: FAIL    not on notebook
+episode  47: SUCCESS 
+episode  48: SUCCESS 
+episode  49: SUCCESS 
+episode  50: SUCCESS 
+episode  51: FAIL    not on notebook
+episode  52: FAIL    tipped over
+episode  53: SUCCESS 
+episode  54: FAIL    not on notebook
+episode  55: SUCCESS 
+episode  56: SUCCESS 
+episode  57: FAIL    tipped over
+episode  58: FAIL    not on notebook
+episode  59: SUCCESS 
+episode  60: SUCCESS 
+episode  61: SUCCESS 
+episode  62: SUCCESS 
+episode  63: SUCCESS 
+episode  64: SUCCESS 
+episode  65: SUCCESS 
+episode  66: SUCCESS 
+episode  67: SUCCESS 
+episode  68: SUCCESS 
+episode  69: SUCCESS 
+episode  70: SUCCESS 
+episode  71: SUCCESS 
+episode  72: FAIL    tipped over
+episode  73: SUCCESS 
+episode  74: SUCCESS 
+episode  75: FAIL    tipped over
+episode  76: FAIL    not on notebook
+episode  77: SUCCESS 
+episode  78: FAIL    tipped over
+episode  79: SUCCESS 
+episode  80: SUCCESS 
+episode  81: FAIL    not on notebook
+episode  82: SUCCESS 
+episode  83: SUCCESS 
+episode  84: SUCCESS 
+episode  85: SUCCESS 
+episode  86: SUCCESS 
+episode  87: SUCCESS 
+episode  88: SUCCESS 
+episode  89: SUCCESS 
+episode  90: SUCCESS 
+episode  91: SUCCESS 
+episode  92: SUCCESS 
+episode  93: SUCCESS 
+episode  94: SUCCESS 
+episode  95: SUCCESS 
+episode  96: FAIL    tipped over
+episode  97: SUCCESS 
+episode  98: SUCCESS 
+episode  99: SUCCESS 
+episode 100: SUCCESS 
+episode 101: SUCCESS 
+episode 102: SUCCESS 
+episode 103: SUCCESS 
+episode 104: FAIL    tipped over
+episode 105: FAIL    not on notebook
+episode 106: SUCCESS 
+episode 107: SUCCESS 
+episode 108: FAIL    not on notebook
+episode 109: FAIL    not on notebook
+episode 110: SUCCESS 
+episode 111: SUCCESS 
+episode 112: SUCCESS 
+episode 113: FAIL    not on notebook
+episode 114: SUCCESS 
+episode 115: SUCCESS 
+episode 116: FAIL    not on notebook
+episode 117: SUCCESS 
+episode 118: SUCCESS 
+episode 119: SUCCESS 
+episode 120: FAIL    tipped over
+episode 121: SUCCESS 
+episode 122: FAIL    not on notebook
+episode 123: SUCCESS 
+episode 124: FAIL    tipped over
+episode 125: SUCCESS 
+episode 126: SUCCESS 
+episode 127: SUCCESS 
+episode 128: SUCCESS 
+episode 129: SUCCESS 
+episode 130: SUCCESS 
+episode 131: SUCCESS 
+episode 132: SUCCESS 
+episode 133: SUCCESS 
+episode 134: SUCCESS 
+episode 135: SUCCESS 
+episode 136: FAIL    tipped over
+episode 137: SUCCESS 
+episode 138: SUCCESS 
+episode 139: SUCCESS 
+episode 140: SUCCESS 
+episode 141: SUCCESS 
+episode 142: SUCCESS 
+episode 143: SUCCESS 
+episode 144: SUCCESS 
+episode 145: SUCCESS 
+episode 146: SUCCESS 
+episode 147: SUCCESS 
+episode 148: SUCCESS 
+episode 149: SUCCESS 
+episode 150: FAIL    tipped over
+episode 151: FAIL    tipped over
+episode 152: FAIL    not on notebook
+episode 153: FAIL    not on notebook
+episode 154: SUCCESS 
+episode 155: SUCCESS 
+episode 156: FAIL    tipped over
+episode 157: SUCCESS 
+episode 158: SUCCESS 
+episode 159: SUCCESS 
+episode 160: SUCCESS 
+episode 161: SUCCESS 
+episode 162: FAIL    not on notebook
+episode 163: SUCCESS 
+episode 164: SUCCESS 
+episode 165: SUCCESS 
+episode 166: SUCCESS 
+episode 167: SUCCESS 
+episode 168: FAIL    not on notebook
+episode 169: SUCCESS 
+episode 170: SUCCESS 
+episode 171: SUCCESS 
+episode 172: SUCCESS 
+episode 173: SUCCESS 
+episode 174: SUCCESS 
+episode 175: SUCCESS 
+episode 176: SUCCESS 
+episode 177: SUCCESS 
+episode 178: SUCCESS 
+episode 179: SUCCESS 
+episode 180: FAIL    not on notebook
+episode 181: SUCCESS 
+episode 182: SUCCESS 
+episode 183: SUCCESS 
+episode 184: SUCCESS 
+episode 185: SUCCESS 
+episode 186: SUCCESS 
+episode 187: SUCCESS 
+episode 188: SUCCESS 
+episode 189: SUCCESS 
+episode 190: FAIL    tipped over
+episode 191: SUCCESS 
+episode 192: SUCCESS 
+episode 193: SUCCESS 
+episode 194: SUCCESS 
+episode 195: SUCCESS 
+episode 196: SUCCESS 
+episode 197: SUCCESS 
+episode 198: SUCCESS 
+episode 199: SUCCESS 
+episode 200: SUCCESS 
+episode 201: SUCCESS 
+episode 202: SUCCESS 
+episode 203: FAIL    not on notebook
+episode 204: SUCCESS 
+episode 205: FAIL    tipped over
+episode 206: SUCCESS 
+episode 207: SUCCESS 
+episode 208: SUCCESS 
+episode 209: SUCCESS 
+episode 210: FAIL    not on notebook
+episode 211: SUCCESS 
+episode 212: SUCCESS 
+episode 213: SUCCESS 
+episode 214: SUCCESS 
+episode 215: SUCCESS 
+episode 216: SUCCESS 
+episode 217: SUCCESS 
+episode 218: SUCCESS 
+episode 219: SUCCESS 
+episode 220: SUCCESS 
+episode 221: SUCCESS 
+episode 222: SUCCESS 
+episode 223: SUCCESS 
+episode 224: SUCCESS 
+episode 225: SUCCESS 
+episode 226: FAIL    not on notebook
+episode 227: SUCCESS 
+episode 228: SUCCESS 
+episode 229: SUCCESS 
+episode 230: SUCCESS 
+episode 231: SUCCESS 
+episode 232: SUCCESS 
+episode 233: SUCCESS 
+episode 234: SUCCESS 
+episode 235: SUCCESS 
+episode 236: SUCCESS 
+episode 237: SUCCESS 
+episode 238: SUCCESS 
+episode 239: SUCCESS 
+episode 240: FAIL    not on notebook
+episode 241: SUCCESS 
+episode 242: FAIL    tipped over
+episode 243: SUCCESS 
+episode 244: SUCCESS 
+episode 245: SUCCESS 
+episode 246: SUCCESS 
+episode 247: SUCCESS 
+episode 248: SUCCESS 
+episode 249: SUCCESS 
+episode 250: SUCCESS 
+episode 251: SUCCESS 
+episode 252: SUCCESS 
+episode 253: SUCCESS 
+episode 254: FAIL    not on notebook
+episode 255: SUCCESS 
+episode 256: SUCCESS 
+episode 257: SUCCESS 
+episode 258: SUCCESS 
+episode 259: SUCCESS 
+episode 260: SUCCESS 
+episode 261: SUCCESS 
+episode 262: SUCCESS 
+episode 263: SUCCESS 
+episode 264: SUCCESS 
+episode 265: SUCCESS 
+episode 266: SUCCESS 
+episode 267: SUCCESS 
+episode 268: SUCCESS 
+episode 269: SUCCESS 
+episode 270: SUCCESS 
+episode 271: SUCCESS 
+episode 272: FAIL    tipped over
+episode 273: FAIL    not on notebook
+episode 274: SUCCESS 
+episode 275: SUCCESS 
+episode 276: SUCCESS 
+episode 277: SUCCESS 
+episode 278: SUCCESS 
+episode 279: FAIL    tipped over
+episode 280: SUCCESS 
+episode 281: SUCCESS 
+episode 282: SUCCESS 
+episode 283: SUCCESS 
+episode 284: SUCCESS 
+episode 285: SUCCESS 
+episode 286: SUCCESS 
+episode 287: FAIL    not on notebook
+episode 288: SUCCESS 
+episode 289: SUCCESS 
+episode 290: SUCCESS 
+episode 291: SUCCESS 
+episode 292: SUCCESS 
+episode 293: SUCCESS 
+episode 294: SUCCESS 
+episode 295: SUCCESS 
+episode 296: SUCCESS 
+episode 297: SUCCESS 
+episode 298: FAIL    not on notebook
+episode 299: SUCCESS 
+episode 300: SUCCESS 
+
+policy success: 251/300 = 84%   failures: {'not on notebook': 31, 'tipped over': 18}
+episode   1: SUCCESS 
+episode   2: SUCCESS 
+episode   3: SUCCESS 
+episode   4: SUCCESS 
+episode   5: SUCCESS 
+episode   6: SUCCESS 
+episode   7: SUCCESS 
+episode   8: SUCCESS 
+episode   9: FAIL    not on notebook
+episode  10: FAIL    tipped over
+episode  11: FAIL    tipped over
+episode  12: SUCCESS 
+episode  13: SUCCESS 
+episode  14: SUCCESS 
+episode  15: SUCCESS 
+episode  16: SUCCESS 
+episode  17: SUCCESS 
+episode  18: SUCCESS 
+episode  19: SUCCESS 
+episode  20: SUCCESS 
+episode  21: SUCCESS 
+episode  22: SUCCESS 
+episode  23: SUCCESS 
+episode  24: SUCCESS 
+episode  25: SUCCESS 
+episode  26: SUCCESS 
+episode  27: SUCCESS 
+episode  28: SUCCESS 
+episode  29: SUCCESS 
+episode  30: SUCCESS 
+episode  31: SUCCESS 
+episode  32: FAIL    not on notebook
+episode  33: SUCCESS 
+episode  34: SUCCESS 
+episode  35: SUCCESS 
+episode  36: SUCCESS 
+episode  37: SUCCESS 
+episode  38: SUCCESS 
+episode  39: SUCCESS 
+episode  40: SUCCESS 
+episode  41: SUCCESS 
+episode  42: SUCCESS 
+episode  43: SUCCESS 
+episode  44: FAIL    not on notebook
+episode  45: SUCCESS 
+episode  46: FAIL    not on notebook
+episode  47: SUCCESS 
+episode  48: SUCCESS 
+episode  49: SUCCESS 
+episode  50: SUCCESS 
+episode  51: FAIL    not on notebook
+episode  52: FAIL    not on notebook
+episode  53: SUCCESS 
+episode  54: SUCCESS 
+episode  55: SUCCESS 
+episode  56: SUCCESS 
+episode  57: SUCCESS 
+episode  58: FAIL    not on notebook
+episode  59: SUCCESS 
+episode  60: SUCCESS 
+episode  61: SUCCESS 
+episode  62: SUCCESS 
+episode  63: FAIL    tipped over
+episode  64: SUCCESS 
+episode  65: SUCCESS 
+episode  66: SUCCESS 
+episode  67: FAIL    tipped over
+episode  68: SUCCESS 
+episode  69: SUCCESS 
+episode  70: SUCCESS 
+episode  71: SUCCESS 
+episode  72: SUCCESS 
+episode  73: SUCCESS 
+episode  74: SUCCESS 
+episode  75: FAIL    tipped over
+episode  76: FAIL    not on notebook
+episode  77: SUCCESS 
+episode  78: FAIL    not on notebook
+episode  79: SUCCESS 
+episode  80: SUCCESS 
+episode  81: SUCCESS 
+episode  82: SUCCESS 
+episode  83: SUCCESS 
+episode  84: SUCCESS 
+episode  85: SUCCESS 
+episode  86: SUCCESS 
+episode  87: SUCCESS 
+episode  88: SUCCESS 
+episode  89: SUCCESS 
+episode  90: SUCCESS 
+episode  91: FAIL    tipped over
+episode  92: SUCCESS 
+episode  93: SUCCESS 
+episode  94: SUCCESS 
+episode  95: SUCCESS 
+episode  96: FAIL    not on notebook
+episode  97: SUCCESS 
+episode  98: SUCCESS 
+episode  99: SUCCESS 
+episode 100: FAIL    not on notebook
+episode 101: SUCCESS 
+episode 102: SUCCESS 
+episode 103: SUCCESS 
+episode 104: FAIL    not on notebook
+episode 105: SUCCESS 
+episode 106: SUCCESS 
+episode 107: SUCCESS 
+episode 108: SUCCESS 
+episode 109: FAIL    not on notebook
+episode 110: FAIL    not on notebook
+episode 111: SUCCESS 
+episode 112: SUCCESS 
+episode 113: SUCCESS 
+episode 114: SUCCESS 
+episode 115: SUCCESS 
+episode 116: FAIL    not on notebook
+episode 117: SUCCESS 
+episode 118: SUCCESS 
+episode 119: SUCCESS 
+episode 120: FAIL    not on notebook
+episode 121: SUCCESS 
+episode 122: FAIL    not on notebook
+episode 123: SUCCESS 
+episode 124: FAIL    not on notebook
+episode 125: SUCCESS 
+episode 126: SUCCESS 
+episode 127: SUCCESS 
+episode 128: SUCCESS 
+episode 129: SUCCESS 
+episode 130: SUCCESS 
+episode 131: FAIL    not on notebook
+episode 132: SUCCESS 
+episode 133: SUCCESS 
+episode 134: SUCCESS 
+episode 135: SUCCESS 
+episode 136: FAIL    tipped over
+episode 137: SUCCESS 
+episode 138: SUCCESS 
+episode 139: SUCCESS 
+episode 140: SUCCESS 
+episode 141: SUCCESS 
+episode 142: SUCCESS 
+episode 143: SUCCESS 
+episode 144: SUCCESS 
+episode 145: SUCCESS 
+episode 146: SUCCESS 
+episode 147: SUCCESS 
+episode 148: SUCCESS 
+episode 149: SUCCESS 
+episode 150: FAIL    tipped over
+episode 151: FAIL    not on notebook
+episode 152: FAIL    tipped over
+episode 153: FAIL    not on notebook
+episode 154: SUCCESS 
+episode 155: SUCCESS 
+episode 156: SUCCESS 
+episode 157: SUCCESS 
+episode 158: SUCCESS 
+episode 159: SUCCESS 
+episode 160: SUCCESS 
+episode 161: FAIL    not on notebook
+episode 162: FAIL    not on notebook
+episode 163: SUCCESS 
+episode 164: SUCCESS 
+episode 165: SUCCESS 
+episode 166: SUCCESS 
+episode 167: SUCCESS 
+episode 168: FAIL    not on notebook
+episode 169: SUCCESS 
+episode 170: SUCCESS 
+episode 171: SUCCESS 
+episode 172: FAIL    not on notebook
+episode 173: SUCCESS 
+episode 174: SUCCESS 
+episode 175: SUCCESS 
+episode 176: SUCCESS 
+episode 177: SUCCESS 
+episode 178: FAIL    not on notebook
+episode 179: SUCCESS 
+episode 180: FAIL    not on notebook
+episode 181: SUCCESS 
+episode 182: SUCCESS 
+episode 183: SUCCESS 
+episode 184: FAIL    tipped over
+episode 185: SUCCESS 
+episode 186: SUCCESS 
+episode 187: FAIL    not on notebook
+episode 188: SUCCESS 
+episode 189: SUCCESS 
+episode 190: FAIL    not on notebook
+episode 191: SUCCESS 
+episode 192: SUCCESS 
+episode 193: SUCCESS 
+episode 194: SUCCESS 
+episode 195: SUCCESS 
+episode 196: SUCCESS 
+episode 197: SUCCESS 
+episode 198: SUCCESS 
+episode 199: SUCCESS 
+episode 200: SUCCESS 
+episode 201: SUCCESS 
+episode 202: SUCCESS 
+episode 203: FAIL    tipped over
+episode 204: SUCCESS 
+episode 205: FAIL    tipped over
+episode 206: SUCCESS 
+episode 207: SUCCESS 
+episode 208: SUCCESS 
+episode 209: SUCCESS 
+episode 210: FAIL    tipped over
+episode 211: SUCCESS 
+episode 212: SUCCESS 
+episode 213: SUCCESS 
+episode 214: SUCCESS 
+episode 215: SUCCESS 
+episode 216: SUCCESS 
+episode 217: SUCCESS 
+episode 218: SUCCESS 
+episode 219: SUCCESS 
+episode 220: SUCCESS 
+episode 221: SUCCESS 
+episode 222: SUCCESS 
+episode 223: SUCCESS 
+episode 224: SUCCESS 
+episode 225: SUCCESS 
+episode 226: FAIL    not on notebook
+episode 227: SUCCESS 
+episode 228: SUCCESS 
+episode 229: SUCCESS 
+episode 230: SUCCESS 
+episode 231: SUCCESS 
+episode 232: SUCCESS 
+episode 233: SUCCESS 
+episode 234: SUCCESS 
+episode 235: SUCCESS 
+episode 236: SUCCESS 
+episode 237: SUCCESS 
+episode 238: SUCCESS 
+episode 239: SUCCESS 
+episode 240: FAIL    not on notebook
+episode 241: SUCCESS 
+episode 242: FAIL    not on notebook
+episode 243: SUCCESS 
+episode 244: SUCCESS 
+episode 245: SUCCESS 
+episode 246: SUCCESS 
+episode 247: SUCCESS 
+episode 248: FAIL    not on notebook
+episode 249: SUCCESS 
+episode 250: FAIL    wrong height
+episode 251: SUCCESS 
+episode 252: SUCCESS 
+episode 253: FAIL    not on notebook
+episode 254: FAIL    tipped over
+episode 255: SUCCESS 
+episode 256: SUCCESS 
+episode 257: SUCCESS 
+episode 258: SUCCESS 
+episode 259: SUCCESS 
+episode 260: SUCCESS 
+episode 261: SUCCESS 
+episode 262: SUCCESS 
+episode 263: SUCCESS 
+episode 264: FAIL    not on notebook
+episode 265: SUCCESS 
+episode 266: SUCCESS 
+episode 267: SUCCESS 
+episode 268: SUCCESS 
+episode 269: SUCCESS 
+episode 270: SUCCESS 
+episode 271: SUCCESS 
+episode 272: FAIL    tipped over
+episode 273: FAIL    not on notebook
+episode 274: SUCCESS 
+episode 275: SUCCESS 
+episode 276: SUCCESS 
+episode 277: FAIL    not on notebook
+episode 278: SUCCESS 
+episode 279: FAIL    tipped over
+episode 280: SUCCESS 
+episode 281: SUCCESS 
+episode 282: FAIL    tipped over
+episode 283: SUCCESS 
+episode 284: SUCCESS 
+episode 285: SUCCESS 
+episode 286: SUCCESS 
+episode 287: FAIL    tipped over
+episode 288: SUCCESS 
+episode 289: SUCCESS 
+episode 290: SUCCESS 
+episode 291: FAIL    not on notebook
+episode 292: SUCCESS 
+episode 293: SUCCESS 
+episode 294: SUCCESS 
+episode 295: SUCCESS 
+episode 296: SUCCESS 
+episode 297: SUCCESS 
+episode 298: FAIL    not on notebook
+episode 299: SUCCESS 
+episode 300: SUCCESS 
+
+policy success: 242/300 = 81%   failures: {'not on notebook': 39, 'tipped over': 18, 'wrong height': 1}
+episode   1: SUCCESS 
+episode   2: SUCCESS 
+episode   3: SUCCESS 
+episode   4: SUCCESS 
+episode   5: SUCCESS 
+episode   6: SUCCESS 
+episode   7: SUCCESS 
+episode   8: SUCCESS 
+episode   9: FAIL    not on notebook
+episode  10: FAIL    tipped over
+episode  11: FAIL    not on notebook
+episode  12: SUCCESS 
+episode  13: SUCCESS 
+episode  14: SUCCESS 
+episode  15: SUCCESS 
+episode  16: SUCCESS 
+episode  17: SUCCESS 
+episode  18: SUCCESS 
+episode  19: FAIL    tipped over
+episode  20: SUCCESS 
+episode  21: SUCCESS 
+episode  22: SUCCESS 
+episode  23: FAIL    tipped over
+episode  24: SUCCESS 
+episode  25: FAIL    tipped over
+episode  26: SUCCESS 
+episode  27: SUCCESS 
+episode  28: SUCCESS 
+episode  29: SUCCESS 
+episode  30: SUCCESS 
+episode  31: SUCCESS 
+episode  32: FAIL    not on notebook
+episode  33: SUCCESS 
+episode  34: SUCCESS 
+episode  35: SUCCESS 
+episode  36: SUCCESS 
+episode  37: SUCCESS 
+episode  38: SUCCESS 
+episode  39: SUCCESS 
+episode  40: SUCCESS 
+episode  41: SUCCESS 
+episode  42: SUCCESS 
+episode  43: SUCCESS 
+episode  44: FAIL    not on notebook
+episode  45: SUCCESS 
+episode  46: FAIL    tipped over
+episode  47: SUCCESS 
+episode  48: SUCCESS 
+episode  49: SUCCESS 
+episode  50: SUCCESS 
+episode  51: FAIL    not on notebook
+episode  52: SUCCESS 
+episode  53: SUCCESS 
+episode  54: FAIL    not on notebook
+episode  55: SUCCESS 
+episode  56: SUCCESS 
+episode  57: SUCCESS 
+episode  58: FAIL    not on notebook
+episode  59: SUCCESS 
+episode  60: SUCCESS 
+episode  61: SUCCESS 
+episode  62: SUCCESS 
+episode  63: SUCCESS 
+episode  64: SUCCESS 
+episode  65: SUCCESS 
+episode  66: SUCCESS 
+episode  67: SUCCESS 
+episode  68: SUCCESS 
+episode  69: SUCCESS 
+episode  70: SUCCESS 
+episode  71: SUCCESS 
+episode  72: SUCCESS 
+episode  73: SUCCESS 
+episode  74: SUCCESS 
+episode  75: SUCCESS 
+episode  76: FAIL    not on notebook
+episode  77: SUCCESS 
+episode  78: FAIL    not on notebook
+episode  79: SUCCESS 
+episode  80: SUCCESS 
+episode  81: SUCCESS 
+episode  82: SUCCESS 
+episode  83: SUCCESS 
+episode  84: FAIL    not on notebook
+episode  85: SUCCESS 
+episode  86: SUCCESS 
+episode  87: SUCCESS 
+episode  88: SUCCESS 
+episode  89: SUCCESS 
+episode  90: SUCCESS 
+episode  91: FAIL    tipped over
+episode  92: SUCCESS 
+episode  93: SUCCESS 
+episode  94: SUCCESS 
+episode  95: SUCCESS 
+episode  96: FAIL    not on notebook
+episode  97: SUCCESS 
+episode  98: SUCCESS 
+episode  99: SUCCESS 
+episode 100: FAIL    tipped over
+episode 101: SUCCESS 
+episode 102: FAIL    tipped over
+episode 103: SUCCESS 
+episode 104: FAIL    not on notebook
+episode 105: SUCCESS 
+episode 106: SUCCESS 
+episode 107: SUCCESS 
+episode 108: SUCCESS 
+episode 109: FAIL    not on notebook
+episode 110: FAIL    not on notebook
+episode 111: SUCCESS 
+episode 112: SUCCESS 
+episode 113: SUCCESS 
+episode 114: SUCCESS 
+episode 115: SUCCESS 
+episode 116: FAIL    not on notebook
+episode 117: SUCCESS 
+episode 118: SUCCESS 
+episode 119: SUCCESS 
+episode 120: FAIL    not on notebook
+episode 121: SUCCESS 
+episode 122: FAIL    not on notebook
+episode 123: SUCCESS 
+episode 124: FAIL    not on notebook
+episode 125: SUCCESS 
+episode 126: SUCCESS 
+episode 127: SUCCESS 
+episode 128: SUCCESS 
+episode 129: SUCCESS 
+episode 130: SUCCESS 
+episode 131: SUCCESS 
+episode 132: SUCCESS 
+episode 133: SUCCESS 
+episode 134: SUCCESS 
+episode 135: SUCCESS 
+episode 136: SUCCESS 
+episode 137: SUCCESS 
+episode 138: SUCCESS 
+episode 139: SUCCESS 
+episode 140: SUCCESS 
+episode 141: SUCCESS 
+episode 142: SUCCESS 
+episode 143: SUCCESS 
+episode 144: SUCCESS 
+episode 145: SUCCESS 
+episode 146: SUCCESS 
+episode 147: SUCCESS 
+episode 148: SUCCESS 
+episode 149: SUCCESS 
+episode 150: FAIL    not on notebook
+episode 151: SUCCESS 
+episode 152: FAIL    tipped over
+episode 153: FAIL    not on notebook
+episode 154: SUCCESS 
+episode 155: SUCCESS 
+episode 156: SUCCESS 
+episode 157: SUCCESS 
+episode 158: SUCCESS 
+episode 159: SUCCESS 
+episode 160: SUCCESS 
+episode 161: SUCCESS 
+episode 162: FAIL    not on notebook
+episode 163: SUCCESS 
+episode 164: SUCCESS 
+episode 165: SUCCESS 
+episode 166: SUCCESS 
+episode 167: SUCCESS 
+episode 168: FAIL    tipped over
+episode 169: SUCCESS 
+episode 170: SUCCESS 
+episode 171: SUCCESS 
+episode 172: FAIL    not on notebook
+episode 173: SUCCESS 
+episode 174: SUCCESS 
+episode 175: SUCCESS 
+episode 176: SUCCESS 
+episode 177: SUCCESS 
+episode 178: SUCCESS 
+episode 179: SUCCESS 
+episode 180: SUCCESS 
+episode 181: SUCCESS 
+episode 182: SUCCESS 
+episode 183: SUCCESS 
+episode 184: SUCCESS 
+episode 185: SUCCESS 
+episode 186: SUCCESS 
+episode 187: SUCCESS 
+episode 188: SUCCESS 
+episode 189: SUCCESS 
+episode 190: FAIL    not on notebook
+episode 191: SUCCESS 
+episode 192: SUCCESS 
+episode 193: SUCCESS 
+episode 194: FAIL    not on notebook
+episode 195: SUCCESS 
+episode 196: SUCCESS 
+episode 197: SUCCESS 
+episode 198: SUCCESS 
+episode 199: FAIL    tipped over
+episode 200: SUCCESS 
+episode 201: SUCCESS 
+episode 202: SUCCESS 
+episode 203: SUCCESS 
+episode 204: SUCCESS 
+episode 205: SUCCESS 
+episode 206: SUCCESS 
+episode 207: SUCCESS 
+episode 208: SUCCESS 
+episode 209: SUCCESS 
+episode 210: FAIL    not on notebook
+episode 211: SUCCESS 
+episode 212: SUCCESS 
+episode 213: SUCCESS 
+episode 214: SUCCESS 
+episode 215: SUCCESS 
+episode 216: SUCCESS 
+episode 217: SUCCESS 
+episode 218: SUCCESS 
+episode 219: SUCCESS 
+episode 220: SUCCESS 
+episode 221: FAIL    tipped over
+episode 222: SUCCESS 
+episode 223: SUCCESS 
+episode 224: SUCCESS 
+episode 225: SUCCESS 
+episode 226: FAIL    not on notebook
+episode 227: SUCCESS 
+episode 228: SUCCESS 
+episode 229: SUCCESS 
+episode 230: SUCCESS 
+episode 231: SUCCESS 
+episode 232: SUCCESS 
+episode 233: SUCCESS 
+episode 234: SUCCESS 
+episode 235: SUCCESS 
+episode 236: SUCCESS 
+episode 237: SUCCESS 
+episode 238: SUCCESS 
+episode 239: SUCCESS 
+episode 240: FAIL    not on notebook
+episode 241: SUCCESS 
+episode 242: FAIL    not on notebook
+episode 243: FAIL    not on notebook
+episode 244: SUCCESS 
+episode 245: SUCCESS 
+episode 246: SUCCESS 
+episode 247: SUCCESS 
+episode 248: SUCCESS 
+episode 249: SUCCESS 
+episode 250: SUCCESS 
+episode 251: SUCCESS 
+episode 252: SUCCESS 
+episode 253: SUCCESS 
+episode 254: SUCCESS 
+episode 255: SUCCESS 
+episode 256: SUCCESS 
+episode 257: SUCCESS 
+episode 258: FAIL    not on notebook
+episode 259: SUCCESS 
+episode 260: SUCCESS 
+episode 261: SUCCESS 
+episode 262: SUCCESS 
+episode 263: SUCCESS 
+episode 264: FAIL    tipped over
+episode 265: SUCCESS 
+episode 266: SUCCESS 
+episode 267: SUCCESS 
+episode 268: SUCCESS 
+episode 269: SUCCESS 
+episode 270: FAIL    not on notebook
+episode 271: SUCCESS 
+episode 272: FAIL    not on notebook
+episode 273: FAIL    not on notebook
+episode 274: SUCCESS 
+episode 275: SUCCESS 
+episode 276: SUCCESS 
+episode 277: FAIL    not on notebook
+episode 278: SUCCESS 
+episode 279: FAIL    not on notebook
+episode 280: SUCCESS 
+episode 281: SUCCESS 
+episode 282: SUCCESS 
+episode 283: SUCCESS 
+episode 284: SUCCESS 
+episode 285: SUCCESS 
+episode 286: SUCCESS 
+episode 287: FAIL    not on notebook
+episode 288: SUCCESS 
+episode 289: SUCCESS 
+episode 290: SUCCESS 
+episode 291: SUCCESS 
+episode 292: SUCCESS 
+episode 293: SUCCESS 
+episode 294: SUCCESS 
+episode 295: SUCCESS 
+episode 296: SUCCESS 
+episode 297: SUCCESS 
+episode 298: FAIL    not on notebook
+episode 299: SUCCESS 
+episode 300: SUCCESS 
+
+policy success: 250/300 = 83%   failures: {'not on notebook': 37, 'tipped over': 13}
+episode   1: SUCCESS 
+episode   2: SUCCESS 
+episode   3: SUCCESS 
+episode   4: SUCCESS 
+episode   5: SUCCESS 
+episode   6: SUCCESS 
+episode   7: SUCCESS 
+episode   8: SUCCESS 
+episode   9: FAIL    not on notebook
+episode  10: FAIL    tipped over
+episode  11: FAIL    tipped over
+episode  12: SUCCESS 
+episode  13: SUCCESS 
+episode  14: SUCCESS 
+episode  15: SUCCESS 
+episode  16: SUCCESS 
+episode  17: FAIL    not on notebook
+episode  18: SUCCESS 
+episode  19: SUCCESS 
+episode  20: SUCCESS 
+episode  21: SUCCESS 
+episode  22: SUCCESS 
+episode  23: FAIL    tipped over
+episode  24: SUCCESS 
+episode  25: SUCCESS 
+episode  26: SUCCESS 
+episode  27: SUCCESS 
+episode  28: SUCCESS 
+episode  29: SUCCESS 
+episode  30: SUCCESS 
+episode  31: SUCCESS 
+episode  32: FAIL    not on notebook
+episode  33: SUCCESS 
+episode  34: SUCCESS 
+episode  35: SUCCESS 
+episode  36: SUCCESS 
+episode  37: SUCCESS 
+episode  38: SUCCESS 
+episode  39: SUCCESS 
+episode  40: SUCCESS 
+episode  41: SUCCESS 
+episode  42: SUCCESS 
+episode  43: SUCCESS 
+episode  44: FAIL    not on notebook
+episode  45: SUCCESS 
+episode  46: SUCCESS 
+episode  47: SUCCESS 
+episode  48: SUCCESS 
+episode  49: SUCCESS 
+episode  50: SUCCESS 
+episode  51: FAIL    not on notebook
+episode  52: SUCCESS 
+episode  53: SUCCESS 
+episode  54: FAIL    not on notebook
+episode  55: SUCCESS 
+episode  56: SUCCESS 
+episode  57: SUCCESS 
+episode  58: FAIL    not on notebook
+episode  59: SUCCESS 
+episode  60: SUCCESS 
+episode  61: SUCCESS 
+episode  62: SUCCESS 
+episode  63: SUCCESS 
+episode  64: SUCCESS 
+episode  65: SUCCESS 
+episode  66: SUCCESS 
+episode  67: SUCCESS 
+episode  68: SUCCESS 
+episode  69: SUCCESS 
+episode  70: SUCCESS 
+episode  71: SUCCESS 
+episode  72: SUCCESS 
+episode  73: SUCCESS 
+episode  74: SUCCESS 
+episode  75: SUCCESS 
+episode  76: FAIL    not on notebook
+episode  77: SUCCESS 
+episode  78: FAIL    not on notebook
+episode  79: SUCCESS 
+episode  80: SUCCESS 
+episode  81: SUCCESS 
+episode  82: SUCCESS 
+episode  83: SUCCESS 
+episode  84: SUCCESS 
+episode  85: SUCCESS 
+episode  86: SUCCESS 
+episode  87: SUCCESS 
+episode  88: SUCCESS 
+episode  89: SUCCESS 
+episode  90: SUCCESS 
+episode  91: FAIL    tipped over
+episode  92: SUCCESS 
+episode  93: SUCCESS 
+episode  94: SUCCESS 
+episode  95: SUCCESS 
+episode  96: FAIL    tipped over
+episode  97: SUCCESS 
+episode  98: SUCCESS 
+episode  99: SUCCESS 
+episode 100: SUCCESS 
+episode 101: SUCCESS 
+episode 102: FAIL    tipped over
+episode 103: SUCCESS 
+episode 104: FAIL    tipped over
+episode 105: SUCCESS 
+episode 106: SUCCESS 
+episode 107: SUCCESS 
+episode 108: SUCCESS 
+episode 109: FAIL    not on notebook
+episode 110: SUCCESS 
+episode 111: SUCCESS 
+episode 112: SUCCESS 
+episode 113: SUCCESS 
+episode 114: SUCCESS 
+episode 115: SUCCESS 
+episode 116: FAIL    not on notebook
+episode 117: SUCCESS 
+episode 118: SUCCESS 
+episode 119: SUCCESS 
+episode 120: FAIL    not on notebook
+episode 121: SUCCESS 
+episode 122: FAIL    not on notebook
+episode 123: SUCCESS 
+episode 124: FAIL    not on notebook
+episode 125: SUCCESS 
+episode 126: SUCCESS 
+episode 127: FAIL    tipped over
+episode 128: SUCCESS 
+episode 129: SUCCESS 
+episode 130: SUCCESS 
+episode 131: SUCCESS 
+episode 132: SUCCESS 
+episode 133: SUCCESS 
+episode 134: SUCCESS 
+episode 135: SUCCESS 
+episode 136: SUCCESS 
+episode 137: SUCCESS 
+episode 138: SUCCESS 
+episode 139: SUCCESS 
+episode 140: SUCCESS 
+episode 141: SUCCESS 
+episode 142: SUCCESS 
+episode 143: SUCCESS 
+episode 144: SUCCESS 
+episode 145: SUCCESS 
+episode 146: SUCCESS 
+episode 147: SUCCESS 
+episode 148: SUCCESS 
+episode 149: SUCCESS 
+episode 150: FAIL    not on notebook
+episode 151: SUCCESS 
+episode 152: FAIL    not on notebook
+episode 153: FAIL    not on notebook
+episode 154: SUCCESS 
+episode 155: SUCCESS 
+episode 156: SUCCESS 
+episode 157: SUCCESS 
+episode 158: SUCCESS 
+episode 159: SUCCESS 
+episode 160: SUCCESS 
+episode 161: SUCCESS 
+episode 162: FAIL    not on notebook
+episode 163: SUCCESS 
+episode 164: SUCCESS 
+episode 165: SUCCESS 
+episode 166: SUCCESS 
+episode 167: SUCCESS 
+episode 168: SUCCESS 
+episode 169: SUCCESS 
+episode 170: SUCCESS 
+episode 171: SUCCESS 
+episode 172: FAIL    not on notebook
+episode 173: SUCCESS 
+episode 174: SUCCESS 
+episode 175: SUCCESS 
+episode 176: SUCCESS 
+episode 177: SUCCESS 
+episode 178: SUCCESS 
+episode 179: SUCCESS 
+episode 180: FAIL    tipped over
+episode 181: SUCCESS 
+episode 182: SUCCESS 
+episode 183: SUCCESS 
+episode 184: SUCCESS 
+episode 185: SUCCESS 
+episode 186: SUCCESS 
+episode 187: FAIL    not on notebook
+episode 188: SUCCESS 
+episode 189: SUCCESS 
+episode 190: FAIL    not on notebook
+episode 191: SUCCESS 
+episode 192: SUCCESS 
+episode 193: SUCCESS 
+episode 194: SUCCESS 
+episode 195: SUCCESS 
+episode 196: SUCCESS 
+episode 197: SUCCESS 
+episode 198: SUCCESS 
+episode 199: SUCCESS 
+episode 200: SUCCESS 
+episode 201: SUCCESS 
+episode 202: SUCCESS 
+episode 203: SUCCESS 
+episode 204: SUCCESS 
+episode 205: SUCCESS 
+episode 206: SUCCESS 
+episode 207: SUCCESS 
+episode 208: SUCCESS 
+episode 209: SUCCESS 
+episode 210: FAIL    not on notebook
+episode 211: SUCCESS 
+episode 212: SUCCESS 
+episode 213: SUCCESS 
+episode 214: SUCCESS 
+episode 215: SUCCESS 
+episode 216: SUCCESS 
+episode 217: SUCCESS 
+episode 218: SUCCESS 
+episode 219: SUCCESS 
+episode 220: SUCCESS 
+episode 221: SUCCESS 
+episode 222: SUCCESS 
+episode 223: SUCCESS 
+episode 224: SUCCESS 
+episode 225: SUCCESS 
+episode 226: FAIL    not on notebook
+episode 227: FAIL    tipped over
+episode 228: SUCCESS 
+episode 229: SUCCESS 
+episode 230: SUCCESS 
+episode 231: SUCCESS 
+episode 232: SUCCESS 
+episode 233: SUCCESS 
+episode 234: SUCCESS 
+episode 235: SUCCESS 
+episode 236: SUCCESS 
+episode 237: SUCCESS 
+episode 238: SUCCESS 
+episode 239: SUCCESS 
+episode 240: FAIL    not on notebook
+episode 241: SUCCESS 
+episode 242: FAIL    not on notebook
+episode 243: SUCCESS 
+episode 244: SUCCESS 
+episode 245: SUCCESS 
+episode 246: SUCCESS 
+episode 247: SUCCESS 
+episode 248: SUCCESS 
+episode 249: SUCCESS 
+episode 250: SUCCESS 
+episode 251: SUCCESS 
+episode 252: SUCCESS 
+episode 253: SUCCESS 
+episode 254: SUCCESS 
+episode 255: SUCCESS 
+episode 256: SUCCESS 
+episode 257: SUCCESS 
+episode 258: FAIL    not on notebook
+episode 259: SUCCESS 
+episode 260: SUCCESS 
+episode 261: SUCCESS 
+episode 262: SUCCESS 
+episode 263: SUCCESS 
+episode 264: FAIL    tipped over
+episode 265: SUCCESS 
+episode 266: SUCCESS 
+episode 267: SUCCESS 
+episode 268: SUCCESS 
+episode 269: SUCCESS 
+episode 270: FAIL    not on notebook
+episode 271: SUCCESS 
+episode 272: FAIL    not on notebook
+episode 273: FAIL    not on notebook
+episode 274: SUCCESS 
+episode 275: SUCCESS 
+episode 276: SUCCESS 
+episode 277: FAIL    not on notebook
+episode 278: SUCCESS 
+episode 279: FAIL    not on notebook
+episode 280: SUCCESS 
+episode 281: SUCCESS 
+episode 282: SUCCESS 
+episode 283: SUCCESS 
+episode 284: SUCCESS 
+episode 285: SUCCESS 
+episode 286: SUCCESS 
+episode 287: FAIL    not on notebook
+episode 288: SUCCESS 
+episode 289: SUCCESS 
+episode 290: SUCCESS 
+episode 291: SUCCESS 
+episode 292: SUCCESS 
+episode 293: SUCCESS 
+episode 294: SUCCESS 
+episode 295: SUCCESS 
+episode 296: SUCCESS 
+episode 297: SUCCESS 
+episode 298: SUCCESS 
+episode 299: SUCCESS 
+episode 300: SUCCESS 
+
+policy success: 257/300 = 86%   failures: {'not on notebook': 32, 'tipped over': 11}
