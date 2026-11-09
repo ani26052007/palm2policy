@@ -137,7 +137,7 @@ Tested on Ubuntu with Python 3.12 and an RTX 3050 laptop GPU (4 GB).
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/<your-username>/palm2policy.git
+git clone https://github.com/ani26052007/palm2policy.git
 cd palm2policy
 ```
 
